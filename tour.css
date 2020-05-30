@@ -1,0 +1,259 @@
+html, body {
+    /*margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.location-intro {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('location-intro.jpg') no-repeat center;
+    -moz-background-size:100% 100%;
+-webkit-background-size:100% 100%;
+background-size:100% 100%;
+border: 0;
+}
+
+.about-section {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('about.jpg') no-repeat center;
+    -moz-background-size:100% 100%;
+-webkit-background-size:100% 100%;
+background-size:100% 100%;
+border: 0;
+-webkit-box-shadow: 0px 6px 37px -5px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 6px 37px -5px rgba(0,0,0,0.74);
+box-shadow: 0px 6px 37px -5px rgba(0,0,0,0.74);
+}
+
+.headline-about {
+    padding: 50px 0;
+}
+
+.headline-about h1 {
+	color: white;
+    font-size: 100px;
+    background: #b9b9b9;
+    background: rgba(185,185,185,0.75);
+    text-shadow: 2px 1px 10px rgba(150, 150, 150, 1);
+}
+
+.holder {
+	color: white;
+    background: #333333;
+    background: rgba(10,10,10,0.75);
+    font-size: 16pt;
+}
+
+.holder a {
+	text-decoration: none;
+}
+
+.location {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 0;
+}
+
+.navbar {
+	background-color: #005b1a;
+	color: white;
+}
+.navbar-inverse .navbar-brand {
+   color: #fff;	
+} 
+
+.navbar-brand 
+{
+    padding-top: 0;
+}
+
+.headline {
+    padding: 160px 0;
+}
+
+.headline h1 {
+	color: white;
+    font-size: 130px;
+    background: #b9b9b9;
+    background: rgba(185,185,185,0.75);
+    text-shadow: 2px 1px 10px rgba(150, 150, 150, 1);
+}
+
+.headline h2 {
+    font-size: 77px;
+    background: #b9b9b9;
+    background: rgba(185,185,185,0.75);
+    text-shadow: 2px 1px 10px rgba(150, 150, 150, 1);
+}
+
+.headline-location {
+    padding: 50px 0;
+}
+
+.headline-location  h1 {
+	color: white;
+    font-size: 80px;
+    background: #323233;
+    background: rgba(50,50,50,0.50);
+    
+}
+
+.headline-location  h2 {
+    font-size: 30px;
+    color: #2c2c2c;
+    background: #323233;
+    background: rgba(185,185,185,0.75);
+    text-shadow: 2px 1px 10px rgba(150, 150, 150, 1);
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.footer {
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}

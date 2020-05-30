@@ -1,0 +1,12 @@
+{
+    "type": "multires",
+    
+    "multiRes": {
+        "path": "./locations/BottomEntrance/%l/%s%y_%x",
+        "fallbackPath": "./locations/BottomEntrance/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2912
+    }
+}

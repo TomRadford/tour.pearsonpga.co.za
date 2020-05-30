@@ -1,0 +1,12 @@
+{
+    "type": "multires",
+    
+    "multiRes": {
+        "path": "./locations/OutdoorGym/%l/%s%y_%x",
+        "fallbackPath": "./locations/OutdoorGym/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 3176
+    }
+}

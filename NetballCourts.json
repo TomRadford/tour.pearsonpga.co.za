@@ -1,0 +1,12 @@
+{
+    "type": "multires",
+    
+    "multiRes": {
+        "path": "./locations/NetballCourts/%l/%s%y_%x",
+        "fallbackPath": "./locations/NetballCourts/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2912
+    }
+}

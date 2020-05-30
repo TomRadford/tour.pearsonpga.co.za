@@ -1,0 +1,13 @@
+{
+    "type": "multires",
+
+  "multiRes": {
+    "path": "./locations/FirstCricketRugbyField/%l/%s%y_%x",
+    "fallbackPath": "./locations/FirstCricketRugbyField/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 2928
+  },
+  "Title":"FirstCricket"
+}

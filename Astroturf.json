@@ -1,0 +1,12 @@
+{
+    "type": "multires",
+    
+    "multiRes": {
+        "path": "./locations/Astroturf/%l/%s%y_%x",
+        "fallbackPath": "./locations/Astroturf/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2880
+    }
+}

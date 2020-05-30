@@ -1,0 +1,12 @@
+{
+    "type": "multires",
+    
+    "multiRes": {
+        "path": "./locations/TennisCourts/%l/%s%y_%x",
+        "fallbackPath": "./locations/TennisCourts/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2976
+    }
+}
